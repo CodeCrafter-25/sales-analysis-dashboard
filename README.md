@@ -79,11 +79,15 @@ The BigQuery query processing location must match the dataset location. The curr
 
 ## Tableau Dashboard
 
-Previous dashboard version:
+### Current Working Version
 
-https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+[Open the Sales Analysis Dashboard in Tableau Public](https://public.tableau.com/views/SalesAnalysisDashboardv2_0/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-This link is kept as a baseline. It is not yet the final portfolio version.
+The dashboard is currently being reviewed and improved for the final portfolio version.
+
+### Previous Version
+
+[View the previous dashboard version](https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Planned Dashboard Sections
 
