@@ -22,3 +22,24 @@ The processed dataset includes additional calculated fields such as:
 - Weekday
 
 The data was cleaned and prepared using SQL in BigQuery.
+
+# Data
+
+## Raw data
+
+`raw/train.csv` is the original Superstore Sales Dataset downloaded from Kaggle.
+
+Source: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
+## Processed data
+
+`processed/sales_data_with_profit.csv` is an extended version of the original dataset.
+
+Added fields:
+
+- Cost
+- Profit
+- Margin
+- ROI
+
+These profitability metrics were created for analytical and portfolio purposes and do not represent actual company accounting data.
