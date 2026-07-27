@@ -1,11 +1,11 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-07-23
+Last updated: 2026-07-27
 
 ## Main Links:
 * Tableau baseline: https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 * BigQuery project ID: sales-dashboard-project-460219
-* Probable Kaggle source: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+* Kaggle source: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 * GitHub repository: https://github.com/CodeCrafter-25/sales-analysis-dashboard
 
 ## Key Files
@@ -42,6 +42,11 @@ Last updated: 2026-07-23
 * Added the initial repository structure
 * Added the project README
 * Saved the current cleaning SQL to GitHub
+* Created the GitHub repository
+* Added the initial repository structure
+* Added the project README
+* Saved the current cleaning SQL to GitHub
+* Confirmed the original Kaggle dataset source
 
 #### In Progress
 * Restoring the BigQuery table
