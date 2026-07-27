@@ -2,21 +2,35 @@
 
 Last updated: 2026-07-27
 
-## Main Links:
-* Tableau baseline: https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
-* BigQuery project ID: sales-dashboard-project-460219
-* Kaggle source: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
-* GitHub repository: https://github.com/CodeCrafter-25/sales-analysis-dashboard
+## Main Links
+
+* Main Tableau dashboard:
+  https://public.tableau.com/views/SalesAnalysisDashboardv2_0/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+* Previous Tableau dashboard:
+  https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+* BigQuery project ID:
+  `sales-dashboard-project-460219`
+
+* Kaggle source:
+  https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+
+* GitHub repository:
+  https://github.com/CodeCrafter-25/sales-analysis-dashboard
 
 ## Key Files
 
-* Working dataset: sales_data_with_profit.csv
-* Current cleaning SQL: 01_clean_sales_data.sql
+* Original dataset: `train.csv`
+* Working processed dataset: `sales_data_with_profit.csv`
+* Current cleaning SQL: `01_clean_sales_data.sql`
 * Previous SQL version: recovered, but incomplete
+* Main Tableau dashboard: Sales Analysis Dashboard v2.0
 * Final Tableau workbook: not ready
 * Final dashboard image: not ready
 
 ## Dataset Audit
+
 * Rows: 9,800
 * Columns: 22
 * Order dates: 2015-01-03 to 2018-12-30
@@ -33,34 +47,47 @@ Last updated: 2026-07-27
 ### Stage 1 — Project recovery and repository setup
 
 #### Completed
-* Located the working dataset
-* Located the old Tableau dashboard
+
+* Located the working processed dataset
+* Confirmed the original Kaggle dataset and source
+* Located the main and previous Tableau dashboards
+* Identified Sales Analysis Dashboard v2.0 as the main working version
+* Classified SalesAnalysisDashboard_17452793623070 as the previous version
 * Located the BigQuery project
 * Recovered an older SQL query
-* Audited the current CSV
+* Audited the current processed CSV
 * Created the GitHub repository
 * Added the initial repository structure
 * Added the project README
 * Saved the current cleaning SQL to GitHub
-* Created the GitHub repository
-* Added the initial repository structure
-* Added the project README
-* Saved the current cleaning SQL to GitHub
-* Confirmed the original Kaggle dataset source
+* Added both Tableau dashboard links to the README
+* Requested external feedback on the Tableau portfolio
 
 #### In Progress
+
 * Restoring the BigQuery table
-* Correcting the query location
-* Rebuilding the cleaning SQL
+* Correcting the BigQuery query location
+* Rebuilding and validating the cleaning SQL
+* Documenting the transformation from `train.csv` to
+  `sales_data_with_profit.csv`
 
 #### Next
-* Validate BigQuery output
-* Review the old Tableau dashboard
+
+* Confirm that the raw and processed datasets are stored correctly
+* Validate the cleaned BigQuery output
+* Define the business questions for the dashboard
 * Define the final dashboard specification
+* Review external feedback before redesigning the dashboard
 
 #### Important Decisions
-* Treat sales_data_with_profit.csv as the current working processed dataset, not as permanently final until source and methodology are documented.
-* Do not automatically remove repeated order/product combinations.
+
+* Use Sales Analysis Dashboard v2.0 as the main working Tableau version.
+* Keep the previous Tableau dashboard as an archive for comparison.
+* Treat `sales_data_with_profit.csv` as the current working processed
+  dataset, not as permanently final until its methodology is fully
+  documented.
+* Do not automatically remove repeated order and product combinations.
 * Keep Postal Code as text.
-* Keep Margin and ROI both as decimal rates and add percentage display fields.
-* Document the profit figures as a modeled scenario based on category margins.
+* Keep Margin and ROI both as decimal rates and percentage display fields.
+* Document the profit figures as a modeled scenario based on category
+  margins.
