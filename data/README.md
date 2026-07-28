@@ -1,45 +1,24 @@
-Data
+# Data
 
 This folder contains the datasets used in the Sales Analysis Dashboard project.
 
-Source Dataset
-
-The original dataset is the Superstore Sales Dataset downloaded from Kaggle:
-
-- File: "train.csv"
-- Source: "Superstore Sales Dataset on Kaggle" (https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting)
-
-Processed Dataset
-
-The processed dataset includes additional calculated fields such as:
-
-- Cost
-- Profit
-- ROI
-- Profit Margin
-- Order Month
-- Order Year
-- Weekday
-
-The data was cleaned and prepared using SQL in BigQuery.
-
-# Data
-
-## Raw data
+## Raw Data
 
 `raw/train.csv` is the original Superstore Sales Dataset downloaded from Kaggle.
 
-Source: https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
+The dataset contains sales orders, customer information, product details, shipping data, and geographical fields.
 
-## Processed data
+## Processed Data
 
-`processed/sales_data_with_profit.csv` is an extended version of the original dataset.
+`processed/sales_data_with_profit.csv` is an extended version of the original dataset prepared for analysis.
 
-Added fields:
+The following calculated fields were added:
 
-- Cost
-- Profit
-- Margin
-- ROI
+* Cost
+* Profit
+* Margin
+* ROI
 
-These profitability metrics were created for analytical and portfolio purposes and do not represent actual company accounting data.
+These profitability metrics were created for analytical and portfolio purposes. They represent a modeled scenario and do not reflect actual company accounting data.
+
+The data was cleaned and prepared using SQL in BigQuery.
