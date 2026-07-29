@@ -4,16 +4,17 @@
 
 This portfolio project analyzes the sales and profitability performance of a fictional US superstore. The goal is to identify trends across time, product categories, customer segments, and regions and present the results in an interactive Tableau dashboard.
 
+
 ## Current Status
 
-**Status:** In progress
+**Status: In progress**
 
-- Working dataset identified and validated
-- Previous Tableau dashboard available as a baseline
-- BigQuery project recovered
-- SQL cleaning workflow being rebuilt
-- GitHub repository structure being created
-- Final dashboard, insights, and documentation are still in progress
+* GitHub repository structure created
+* Raw and processed datasets added
+* BigQuery project recovered
+* Cleaning SQL added to the repository
+* Current and previous Tableau dashboard versions linked
+* Final dashboard improvements, insights, and documentation are still in progress
 
 ## Tools
 
@@ -36,11 +37,10 @@ Main groups of fields:
 
 ### Source
 
-The file structure and record count strongly match the Kaggle **Superstore Sales Dataset** by Rohit Sahoo:
+The original dataset is the Superstore Sales Dataset by Rohit Sahoo, downloaded from Kaggle:
 
 https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
-The exact original download source should be confirmed before the project is marked as final.
 
 ### Profitability Model
 
