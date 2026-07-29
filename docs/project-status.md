@@ -62,6 +62,9 @@ Last updated: 2026-07-27
 * Saved the current cleaning SQL to GitHub
 * Added both Tableau dashboard links to the README
 * Requested external feedback on the Tableau portfolio
+* Added the original dataset to `data/raw/train.csv`
+* Added the processed dataset to `data/processed/sales_data_with_profit.csv`
+* Documented the difference between the raw and processed datasets
 
 #### In Progress
 
@@ -73,7 +76,6 @@ Last updated: 2026-07-27
 
 #### Next
 
-* Confirm that the raw and processed datasets are stored correctly
 * Validate the cleaned BigQuery output
 * Define the business questions for the dashboard
 * Define the final dashboard specification
