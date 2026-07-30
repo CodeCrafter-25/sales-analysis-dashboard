@@ -7,14 +7,15 @@ This portfolio project analyzes the sales and profitability performance of a fic
 
 ## Current Status
 
-**Status: In progress**
+**Status:** In progress
 
-* GitHub repository structure created
-* Raw and processed datasets added
+* Working dataset identified and validated
+* Raw and processed datasets added to the repository
 * BigQuery project recovered
 * Cleaning SQL added to the repository
-* Current and previous Tableau dashboard versions linked
+* Main and previous Tableau dashboard versions identified and linked
 * Final dashboard improvements, insights, and documentation are still in progress
+
 
 ## Tools
 
@@ -37,7 +38,7 @@ Main groups of fields:
 
 ### Source
 
-The original dataset is the Superstore Sales Dataset by Rohit Sahoo, downloaded from Kaggle:
+The original dataset is the **Superstore Sales Dataset** by Rohit Sahoo, downloaded from Kaggle:
 
 https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting
 
