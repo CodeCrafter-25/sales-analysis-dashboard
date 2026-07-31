@@ -125,3 +125,9 @@ sales-analysis-dashboard/
 5. Rebuild the final dashboard with a consistent layout and color system.
 6. Add business insights and recommendations.
 7. Replace this progress README with the final case-study version.
+
+## Dashboard Preview
+
+![Sales Analysis Dashboard](images/dashboard-preview.png)
+
+[View the interactive dashboard in Tableau Public](https://public.tableau.com/views/SalesAnalysisDashboardv2_0/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
