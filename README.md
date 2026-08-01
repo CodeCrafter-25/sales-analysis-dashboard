@@ -1,5 +1,6 @@
 # Sales Analysis Dashboard
 
+
 ## Project Overview
 
 This portfolio project analyzes the sales and profitability performance of a fictional US superstore. The goal is to identify trends across time, product categories, customer segments, and regions and present the results in an interactive Tableau dashboard.
@@ -24,6 +25,7 @@ This portfolio project analyzes the sales and profitability performance of a fic
 - **Tableau Public** — interactive dashboard and visual analysis
 - **GitHub** — project documentation and version control
 
+
 ## Dataset
 
 The current processed dataset contains **9,800 rows and 22 columns** and covers orders from **2015-01-03 to 2018-12-30**.
@@ -35,6 +37,7 @@ Main groups of fields:
 - Geography
 - Products and categories
 - Sales, cost, profit, margin, and ROI
+
 
 ### Source
 
@@ -59,6 +62,7 @@ The derived metrics follow these relationships:
 
 Because this is a modeled profitability scenario, the dashboard findings should be described as scenario-based rather than actual company accounting results.
 
+
 ## Data Quality Notes
 
 - Sales, Cost, Profit, Margin, and ROI have no missing values.
@@ -66,6 +70,7 @@ Because this is a modeled profitability scenario, the dashboard findings should 
 - Order Date and Ship Date use `DD/MM/YYYY` in the CSV.
 - There are repeated combinations of Order ID, Customer ID, and Product ID. Most have different sales values, so they should not be removed automatically.
 - All current Profit values are positive because profit is generated from positive category-level margin assumptions.
+
 
 ## BigQuery
 
@@ -78,6 +83,7 @@ Recommended tables:
 
 The BigQuery query processing location must match the dataset location. The current project is configured in `europe-west4`.
 
+
 ## Tableau Dashboard
 
 ### Current Working Version
@@ -86,9 +92,11 @@ The BigQuery query processing location must match the dataset location. The curr
 
 The dashboard is currently being reviewed and improved for the final portfolio version.
 
+
 ### Previous Version
 
 [View the previous dashboard version](https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 ## Planned Dashboard Sections
 
@@ -100,6 +108,7 @@ The dashboard is currently being reviewed and improved for the final portfolio v
 - Top products and customers
 - Shipping performance
 - Interactive filters
+
 
 ## Repository Structure
 
@@ -118,15 +127,16 @@ sales-analysis-dashboard/
 
 ## Next Steps
 
-1. Confirm or recreate the BigQuery dataset and source table.
-2. Run the cleaning SQL in `europe-west4`.
-3. Validate the cleaned table totals and row count.
-4. Review the old Tableau workbook and decide which charts to keep.
-5. Rebuild the final dashboard with a consistent layout and color system.
-6. Add business insights and recommendations.
-7. Replace this progress README with the final case-study version.
+1. Finalize the dashboard layout and visual consistency.
+2. Review chart titles, labels, legends, and tooltips.
+3. Validate KPI values and dashboard filters.
+4. Add key business insights and recommendations.
+5. Update the project status documentation.
+6. Replace the progress README with the final case-study version.
+
 
 ## Dashboard Preview
+
 
 ![Sales Analysis Dashboard](images/dashboard-preview.png)
 
