@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-01
+Last updated: 2026-08-02
 
 ## Main Links
 
@@ -26,7 +26,7 @@ Last updated: 2026-08-01
 * Current cleaning SQL: `01_clean_sales_data.sql`
 * Previous SQL version: recovered, but incomplete
 * Main Tableau dashboard: Sales Analysis Dashboard v2.0
-* Final Tableau workbook: not ready
+* Main Tableau workbook: Sales Analysis Dashboard v2.0
 * Current dashboard image: `images/dashboard-preview.png`
 
 ## Dataset Audit
@@ -65,9 +65,10 @@ Last updated: 2026-08-01
 * Added the original dataset to `data/raw/train.csv`
 * Added the processed dataset to `data/processed/sales_data_with_profit.csv`
 * Documented the difference between the raw and processed datasets
-* Added four KPI cards: Total Sales, Total Cost, Total Profit, and ROI
-* Formatted KPI values with currency, percentage, rounding, and million units
-* Updated the dashboard preview image in GitHub
+* Added four KPI cards: Total Sales, Total Cost, Total Profit, and Overall ROI
+* Formatted KPI values using currency, percentage, rounding, and million units
+* Added the current dashboard preview to the main README
+* Removed the temporary `images/1.md` file
 
 #### In Progress
 
