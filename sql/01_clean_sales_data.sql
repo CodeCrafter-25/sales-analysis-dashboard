@@ -1,6 +1,7 @@
 -- Sales Analysis Dashboard
 -- BigQuery project: sales-dashboard-project-460219
--- IMPORTANT: In BigQuery Query settings, set Data location to europe-west4
+-- IMPORTANT: In BigQuery Query settings, set Data location to US
+-- because the sales_profit dataset is stored in the US multi-region.
 -- before running this script.
 
 CREATE OR REPLACE TABLE
