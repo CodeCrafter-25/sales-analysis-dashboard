@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-02
+Last updated: 2026-08-05
 
 ## Main Links
 
@@ -69,19 +69,23 @@ Last updated: 2026-08-02
 * Formatted KPI values using currency, percentage, rounding, and million units
 * Added the current dashboard preview to the main README
 * Removed the temporary `images/1.md` file
+* Restored the `sales_profit` BigQuery dataset in the US region
+* Restored the `sales_data_profit` source table with 9,800 rows
+* Executed the current `01_clean_sales_data.sql`
+* Created and validated `sales_data_profit_clean`
+* Confirmed that row counts and financial totals match the processed dataset
+* Added the dashboard business questions
 
 #### In Progress
 
-* Restoring the BigQuery table
-* Correcting the BigQuery query location
-* Rebuilding and validating the cleaning SQL
+* Reviewing the final Tableau dashboard
+* Preparing key business insights and recommendations
+* Updating the final project documentation
 * Documenting the transformation from `train.csv` to
   `sales_data_with_profit.csv`
 
 #### Next
 
-* Validate the cleaned BigQuery output
-* Define the business questions for the dashboard
 * Define the final dashboard specification
 * Review external feedback before redesigning the dashboard
 
