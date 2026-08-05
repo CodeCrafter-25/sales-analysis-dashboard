@@ -74,14 +74,23 @@ Because this is a modeled profitability scenario, the dashboard findings should 
 
 ## BigQuery
 
-**Project ID:** `sales-dashboard-project-460219`
+**Project ID:** `sales-dashboard-project-460219`  
+**Dataset:** `sales_profit`  
+**Data location:** `US`
 
-Recommended tables:
+Main tables:
 
-- `sales_profit.sales_data_profit` — uploaded source/processed CSV
-- `sales_profit.sales_data_profit_clean` — cleaned table created by SQL
+- `sales_profit.sales_data_profit` — source table containing 9,800 rows
+- `sales_profit.sales_data_profit_clean` — cleaned and validated table created by SQL
 
-The BigQuery query processing location must match the dataset location. The current project is configured in `europe-west4`.
+The cleaning query was executed successfully in BigQuery.
+
+Validation results:
+
+- Row count: 9,800
+- Missing Postal Code values: 11
+- Invalid profit calculations: 0
+- Sales, cost, and modeled profit totals matched the processed dataset.
 
 
 ## Tableau Dashboard
