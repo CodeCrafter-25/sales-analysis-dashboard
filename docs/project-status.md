@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-05
+Last updated: 2026-08-06
 
 ## Main Links
 
@@ -75,14 +75,13 @@ Last updated: 2026-08-05
 * Created and validated `sales_data_profit_clean`
 * Confirmed that row counts and financial totals match the processed dataset
 * Added the dashboard business questions
+* Documented the transformation from `train.csv` to `sales_data_with_profit.csv`
 
-#### In Progress
+  #### In Progress
 
 * Reviewing the final Tableau dashboard
 * Preparing key business insights and recommendations
 * Updating the final project documentation
-* Documenting the transformation from `train.csv` to
-  `sales_data_with_profit.csv`
 
 #### Next
 
