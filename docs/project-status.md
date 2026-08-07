@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-06
+Last updated: 2026-08-07
 
 ## Main Links
 
@@ -42,61 +42,42 @@ Last updated: 2026-08-06
 * Duplicate Row ID values: 0
 * Repeated Order ID + Customer ID + Product ID combinations: 8 groups
 
+
 ## Current Stage
 
 ### Stage 1 — Project recovery and repository setup
 
 #### Completed
 
-* Located the working processed dataset
+* Located and validated the working processed dataset
 * Confirmed the original Kaggle dataset and source
-* Located the main and previous Tableau dashboards
-* Identified Sales Analysis Dashboard v2.0 as the main working version
-* Classified SalesAnalysisDashboard_17452793623070 as the previous version
-* Located the BigQuery project
-* Recovered an older SQL query
-* Audited the current processed CSV
-* Created the GitHub repository
-* Added the initial repository structure
-* Added the project README
-* Saved the current cleaning SQL to GitHub
-* Added both Tableau dashboard links to the README
-* Requested external feedback on the Tableau portfolio
-* Added the original dataset to `data/raw/train.csv`
-* Added the processed dataset to `data/processed/sales_data_with_profit.csv`
-* Documented the difference between the raw and processed datasets
-* Added four KPI cards: Total Sales, Total Cost, Total Profit, and Overall ROI
-* Formatted KPI values using currency, percentage, rounding, and million units
-* Added the current dashboard preview to the main README
-* Removed the temporary `images/1.md` file
-* Restored the `sales_profit` BigQuery dataset in the US region
-* Restored the `sales_data_profit` source table with 9,800 rows
-* Executed the current `01_clean_sales_data.sql`
+* Added raw and processed datasets to GitHub
+* Located and restored the BigQuery project
+* Restored the `sales_profit` dataset
+* Loaded `sales_data_profit` with 9,800 rows
+* Successfully executed `01_clean_sales_data.sql`
 * Created and validated `sales_data_profit_clean`
-* Confirmed that row counts and financial totals match the processed dataset
-* Added the dashboard business questions
-* Documented the transformation from `train.csv` to `sales_data_with_profit.csv`
+* Confirmed BigQuery data location as US
+* Validated row count and financial totals against the processed dataset
+* Identified Sales Analysis Dashboard v2.0 as the main Tableau version
+* Kept the previous Tableau dashboard as an archive
+* Added four KPI cards: Total Sales, Total Cost, Total Profit, and Overall ROI
+* Formatted KPI values
+* Added the current dashboard preview to GitHub
+* Defined the main business questions for the analysis
 
-  #### In Progress
+### Stage 2 — Dashboard refinement and business analysis
 
-* Reviewing the final Tableau dashboard
-* Preparing key business insights and recommendations
-* Updating the final project documentation
+#### In Progress
+
+* Reviewing the dashboard structure against the defined business questions
+* Improving chart titles, labels, legends, and tooltips
+* Reviewing visual consistency and dashboard layout
 
 #### Next
 
-* Define the final dashboard specification
-* Review external feedback before redesigning the dashboard
-
-#### Important Decisions
-
-* Use Sales Analysis Dashboard v2.0 as the main working Tableau version.
-* Keep the previous Tableau dashboard as an archive for comparison.
-* Treat `sales_data_with_profit.csv` as the current working processed
-  dataset, not as permanently final until its methodology is fully
-  documented.
-* Do not automatically remove repeated order and product combinations.
-* Keep Postal Code as text.
-* Keep Margin and ROI both as decimal rates and percentage display fields.
-* Document the profit figures as a modeled scenario based on category
-  margins.
+* Validate Tableau KPI values and filters
+* Identify the strongest business insights
+* Add final business conclusions and recommendations
+* Finalize the Tableau dashboard
+* Replace the progress README with the final case-study version
