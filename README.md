@@ -109,7 +109,7 @@ The dashboard is currently being reviewed and improved for the final portfolio v
 
 ## Planned Dashboard Sections
 
-- KPI cards: Sales, Cost, Profit, Margin, ROI, Orders, Customers
+- KPI cards: Total Sales, Total Cost, Total Profit, and Overall ROI
 - Sales and profit trends over time
 - Performance by category and sub-category
 - Regional and state analysis
@@ -125,12 +125,17 @@ The dashboard is currently being reviewed and improved for the final portfolio v
 sales-analysis-dashboard/
 ├── README.md
 ├── data/
-│   └── README.md
+│   ├── README.md
+│   ├── raw/
+│   │   └── train.csv
+│   └── processed/
+│       └── sales_data_with_profit.csv
 ├── sql/
 │   └── 01_clean_sales_data.sql
 ├── images/
 │   └── dashboard-preview.png
 └── docs/
+    ├── business-questions.md
     └── project-status.md
 ```
 
