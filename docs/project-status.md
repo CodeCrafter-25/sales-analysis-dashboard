@@ -65,6 +65,8 @@ Last updated: 2026-08-07
 * Formatted KPI values
 * Added the current dashboard preview to GitHub
 * Defined the main business questions for the analysis
+* Validated all Tableau KPI values against the processed dataset
+* Confirmed that all dashboard filters correctly update KPI cards and visualizations
 
 ### Stage 2 — Dashboard refinement and business analysis
 
@@ -76,7 +78,6 @@ Last updated: 2026-08-07
 
 #### Next
 
-* Validate Tableau KPI values and filters
 * Identify the strongest business insights
 * Add final business conclusions and recommendations
 * Finalize the Tableau dashboard
