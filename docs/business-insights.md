@@ -132,6 +132,53 @@ Even the Top-10 customers account for less than 7% of total sales, indicating a 
 6. Customer concentration is relatively low, with the Top-10 customers generating less than 7% of total sales.
 
 
+## Business Recommendations
+
+### 1. Prepare for strong Q4 demand
+
+Q4 consistently shows strong sales and modeled profit performance.
+
+The business should prepare inventory, staffing, and promotional activities in advance of Q4 to take advantage of seasonal demand.
+
+At the same time, weaker Q1 performance should be investigated to identify opportunities for targeted promotions or demand-generation campaigns.
+
+
+### 2. Prioritize the Technology category
+
+Technology is the strongest category in the modeled profitability scenario, generating the highest sales, modeled profit, and ROI.
+
+The business should consider prioritizing high-performing Technology products in merchandising, inventory planning, and marketing.
+
+However, because profitability is based on modeled category margins, actual cost and margin data should be validated before making real investment decisions.
+
+
+### 3. Protect availability of top-performing products
+
+Canon imageCLASS 2200 Advanced Copier is the strongest individual product by modeled profit and significantly outperforms the other Top-10 products.
+
+The business should monitor stock availability and demand for this product and investigate whether similar high-value products have comparable growth potential.
+
+At the same time, the Top-10 products generate only about 12% of total modeled profit, so the broader product portfolio should remain diversified.
+
+
+### 4. Maintain a diversified customer strategy
+
+The Top-10 customers generate less than 7% of total sales, which indicates low customer concentration.
+
+The business should continue developing a broad customer base rather than relying heavily on a few large customers.
+
+Targeted retention or loyalty initiatives can still be used for high-value customers without creating excessive dependency on them.
+
+
+### 5. Investigate the 2016 decline
+
+Sales and modeled profit declined in 2016 before returning to strong growth in 2017 and 2018.
+
+Further analysis should investigate whether the decline was related to product mix, customer segments, geography, seasonality, or changes in order volume.
+
+Understanding the cause could help identify risks that may affect future growth.
+
+
 ## Methodology Note
 
 Cost, Profit, Margin, and ROI are modeled metrics created for this portfolio project.
