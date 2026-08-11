@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-07
+Last updated: 2026-08-11
 
 ## Main Links
 
@@ -78,7 +78,5 @@ Last updated: 2026-08-07
 
 #### Next
 
-* Identify the strongest business insights
-* Add final business conclusions and recommendations
 * Finalize the Tableau dashboard
 * Replace the progress README with the final case-study version
