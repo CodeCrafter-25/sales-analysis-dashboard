@@ -8,14 +8,14 @@ This portfolio project analyzes the sales and profitability performance of a fic
 
 ## Current Status
 
-**Status:** In progress
+**Status:** Final refinement
 
-* Working dataset identified and validated
-* Raw and processed datasets added to the repository
-* BigQuery project recovered
-* Cleaning SQL added to the repository
-* Main and previous Tableau dashboard versions identified and linked
-* Final dashboard improvements, insights, and documentation are still in progress
+- Raw and processed datasets validated
+- BigQuery cleaning and validation completed
+- Tableau KPI values and filters validated
+- Dashboard structure and visualizations refined
+- Business insights and recommendations completed
+- Final README and dashboard presentation are being polished
 
 
 ## Tools
@@ -107,17 +107,14 @@ The dashboard is currently being reviewed and improved for the final portfolio v
 [View the previous dashboard version](https://public.tableau.com/views/SalesAnalysisDashboard_17452793623070/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
-## Planned Dashboard Sections
+## Dashboard Contents
 
 - KPI cards: Total Sales, Total Cost, Total Profit, and Overall ROI
-- Sales and profit trends over time
-- Performance by category and sub-category
-- Regional and state analysis
-- Customer segment analysis
-- Top products and customers
-- Shipping performance
-- Interactive filters
-
+- Sales and modeled profit trends by quarter
+- Top 10 products by modeled profit
+- Top 10 customers by sales
+- Product and customer contribution within the Top 10
+- Modeled profit by product category
 
 ## Repository Structure
 
@@ -136,17 +133,15 @@ sales-analysis-dashboard/
 │   └── dashboard-preview.png
 └── docs/
     ├── business-questions.md
+    ├── business-insights.md
     └── project-status.md
 ```
 
 ## Next Steps
 
-1. Finalize the dashboard layout and visual consistency.
-2. Review chart titles, labels, legends, and tooltips.
-3. Validate KPI values and dashboard filters.
-4. Add key business insights and recommendations.
-5. Update the project status documentation.
-6. Replace the progress README with the final case-study version.
+1. Complete the final visual review of the Tableau dashboard.
+2. Update the dashboard preview image after the final Tableau changes.
+3. Convert this README into the final portfolio case-study version.
 
 
 ## Dashboard Preview
