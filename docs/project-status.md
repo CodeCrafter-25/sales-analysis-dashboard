@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-11
+Last updated: 2026-08-13
 
 ## Main Links
 
@@ -67,6 +67,8 @@ Last updated: 2026-08-11
 * Defined the main business questions for the analysis
 * Validated all Tableau KPI values against the processed dataset
 * Confirmed that all dashboard filters correctly update KPI cards and visualizations
+* Completed the main business insights analysis
+* Added business recommendations based on dashboard findings
 
 ### Stage 2 — Dashboard refinement and business analysis
 
