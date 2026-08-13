@@ -10,12 +10,11 @@ This portfolio project analyzes the sales and profitability performance of a fic
 
 **Status:** Final refinement
 
-- Raw and processed datasets validated
-- BigQuery cleaning and validation completed
+- Data preparation and BigQuery validation completed
 - Tableau KPI values and filters validated
-- Dashboard structure and visualizations refined
+- Dashboard visualizations refined
 - Business insights and recommendations completed
-- Final README and dashboard presentation are being polished
+- Final portfolio presentation and README are being polished
 
 
 ## Tools
