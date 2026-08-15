@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-13
+Last updated: 2026-08-15
 
 ## Main Links
 
@@ -72,11 +72,15 @@ Last updated: 2026-08-13
 
 ### Stage 2 — Dashboard refinement and business analysis
 
-#### In Progress
+#### Completed
 
-* Reviewing the dashboard structure against the defined business questions
-* Improving chart titles, labels, legends, and tooltips
-* Reviewing visual consistency and dashboard layout
+* Reviewed dashboard structure against the defined business questions
+* Improved chart titles, labels, and visual consistency
+* Added and validated dashboard filters
+* Completed the final Tableau visual review
+* Updated the final dashboard preview
+* Completed business insights and recommendations
+* Finalized the portfolio README
 
 #### Next
 
