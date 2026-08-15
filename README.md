@@ -6,9 +6,11 @@
 This portfolio project analyzes the sales and profitability performance of a fictional US superstore. The goal is to identify trends across time, product categories, customer segments, and regions and present the results in an interactive Tableau dashboard.
 
 
-## Current Status
+## Project Status
 
-**Status:** Final refinement
+**Status:** Completed
+
+The data preparation, BigQuery validation, Tableau dashboard development, KPI and filter validation, business analysis, and project documentation have been completed.
 
 - Data preparation and BigQuery validation completed
 - Tableau KPI values and filters validated
@@ -94,11 +96,10 @@ Validation results:
 
 ## Tableau Dashboard
 
-### Current Working Version
+### Final Dashboard
 
 [Open the Sales Analysis Dashboard in Tableau Public](https://public.tableau.com/views/SalesAnalysisDashboardv2_0/SalesAnalysisDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-The dashboard is currently being reviewed and improved for the final portfolio version.
 
 
 ### Previous Version
@@ -114,6 +115,24 @@ The dashboard is currently being reviewed and improved for the final portfolio v
 - Top 10 customers by sales
 - Product and customer contribution within the Top 10
 - Modeled profit by product category
+
+## Key Business Insights
+
+- Total sales reached approximately **$2.26M**, with modeled profit of approximately **$0.69M** and an overall modeled ROI of **43.97%**.
+- Sales increased from approximately **$479.6K in 2015 to $721.4K in 2018**, despite a temporary decline in 2016.
+- Q4 consistently showed strong performance, while Q1 tended to be weaker.
+- Technology was the strongest category in the modeled profitability scenario, contributing approximately **47.93% of total modeled profit**.
+- The Top-10 products generated approximately **12.15% of total modeled profit**, indicating that profit was distributed across a broad product portfolio.
+- The Top-10 customers generated only approximately **6.81% of total sales**, suggesting relatively low customer concentration.
+
+
+## Business Recommendations
+
+- Prepare inventory, staffing, and promotional activity ahead of strong Q4 demand.
+- Prioritize high-performing Technology products while validating actual cost and margin data before making real business decisions.
+- Monitor availability and demand for the strongest individual products.
+- Maintain a diversified customer strategy rather than relying heavily on a small group of customers.
+- Investigate the reasons behind the 2016 decline to identify potential future risks.
 
 ## Repository Structure
 
@@ -135,12 +154,6 @@ sales-analysis-dashboard/
     ├── business-insights.md
     └── project-status.md
 ```
-
-## Next Steps
-
-1. Complete the final visual review of the Tableau dashboard.
-2. Update the dashboard preview image after the final Tableau changes.
-3. Convert this README into the final portfolio case-study version.
 
 
 ## Dashboard Preview
