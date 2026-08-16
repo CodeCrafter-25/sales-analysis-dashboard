@@ -16,7 +16,7 @@ The data preparation, BigQuery validation, Tableau dashboard development, KPI an
 - Tableau KPI values and filters validated
 - Dashboard visualizations refined
 - Business insights and recommendations completed
-- Final portfolio presentation and README are being polished
+- Final portfolio presentation and README completed
 
 
 ## Tools
