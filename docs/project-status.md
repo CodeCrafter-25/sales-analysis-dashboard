@@ -1,6 +1,6 @@
 # Project Status — Sales Analysis Dashboard
 
-Last updated: 2026-08-15
+Last updated: 2026-08-16
 
 ## Main Links
 
@@ -82,7 +82,3 @@ Last updated: 2026-08-15
 * Completed business insights and recommendations
 * Finalized the portfolio README
 
-#### Next
-
-* Finalize the Tableau dashboard
-* Replace the progress README with the final case-study version
