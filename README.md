@@ -132,7 +132,7 @@ Validation results:
 - Prioritize high-performing Technology products while validating actual cost and margin data before making real business decisions.
 - Monitor availability and demand for the strongest individual products.
 - Maintain a diversified customer strategy rather than relying heavily on a small group of customers.
-
+- Investigate the reasons behind the 2016 decline to identify potential future risks.
 
 ## Repository Structure
 
