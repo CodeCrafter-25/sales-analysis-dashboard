@@ -170,14 +170,6 @@ The business should continue developing a broad customer base rather than relyin
 Targeted retention or loyalty initiatives can still be used for high-value customers without creating excessive dependency on them.
 
 
-### 5. Investigate the 2016 decline
-
-Sales and modeled profit declined in 2016 before returning to strong growth in 2017 and 2018.
-
-Further analysis should investigate whether the decline was related to product mix, customer segments, geography, seasonality, or changes in order volume.
-
-Understanding the cause could help identify risks that may affect future growth.
-
 
 ## Methodology Note
 
