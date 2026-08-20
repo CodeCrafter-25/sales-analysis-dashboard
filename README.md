@@ -152,6 +152,7 @@ sales-analysis-dashboard/
 └── docs/
     ├── business-questions.md
     ├── business-insights.md
+    ├── data-transformation.md
     └── project-status.md
 ```
 
